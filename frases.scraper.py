@@ -34,7 +34,7 @@ def scrapear_frases(url='https://quotes.toscrape.com/'):
         autor = autor_tag.get_text(strip=True) if autor_tag else "Autor no encontrado"
         
         # Etiquetas
-        etiquetas_tags = frase.find_all('a', {'class': 'tags'})
+        etiquetas_tags = frase.find_all('a', {'class': 'tag'})
         etiquetas = [tag.get_text(strip=True) for tag in etiquetas_tags]
         
         frases_obj = Frases(texto, autor, etiquetas)
