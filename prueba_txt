@@ -1,0 +1,19 @@
+{
+    "Usuario": [
+        {
+            "Nombre": " Liam",
+            "Apellidos": "Garcia",
+            "Edad": 3
+        },
+        {
+            "Nombre": "Mery",
+            "Apellidos": "Oltean",
+            "Edad": 40
+        },
+        {
+            "Nombre": "Filipi",
+            "Apellidos": "Garcia",
+            "Edad": 32
+        }
+    ]
+}
